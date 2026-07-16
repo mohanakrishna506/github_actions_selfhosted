@@ -1,0 +1,8 @@
+name: selfhost
+on: push
+jobs:
+  km:
+    runs-on: self-hosted
+    steps:
+      - name: message
+        run: echo "Krishna"
